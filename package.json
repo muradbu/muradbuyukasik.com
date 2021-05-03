@@ -1,0 +1,27 @@
+{
+  "name": "muradbuyukasik.com",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/MuradBuyukasik/muradbuyukasik.com.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/MuradBuyukasik/muradbuyukasik.com/issues"
+  },
+  "homepage": "https://github.com/MuradBuyukasik/muradbuyukasik.com#readme",
+  "dependencies": {
+    "next": "^10.2.0",
+    "react": "^17.0.2",
+    "react-dom": "^17.0.2"
+  }
+}
