@@ -1,0 +1,15 @@
+:root {
+    --bg-color: #f0eae5;
+    --text-color: #2a2927;
+    --header-color: #de985f;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    color: var(--header-color);
+}
+
+body {
+    background-color: var(--bg-color);
+    color: var(--text-color);
+    font-family: "Roboto";
+}
