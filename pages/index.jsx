@@ -26,7 +26,7 @@ const index = () => {
                     a fullstack developer based in the Netherlands.
                 </p>
                 <p className={`${paragraphClasses} mt-5`}>
-                    This website is a work-in-progress and it's source can be found <a href="https://github.com/MuradBuyukasik/muradbuyukasik.com" className="underline">here</a>.
+                    This website is a work-in-progress and its source can be found <a href="https://github.com/MuradBuyukasik/muradbuyukasik.com" className="underline">here</a>.
                 </p>
                 <p className={`${paragraphClasses} my-5`}>
                     I will use this website to list my portfolio projects, resume, and to write my blog!
