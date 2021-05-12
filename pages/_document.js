@@ -10,7 +10,7 @@ class MyDocument extends Document {
     return (
       <Html>
         <Head />
-        <body className="flex justify-center items-center h-screen bg-gradient-to-r from-indigo-50 to-indigo-100">
+        <body>
           <Main />
           <NextScript />
         </body>
