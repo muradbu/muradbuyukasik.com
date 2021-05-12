@@ -1,0 +1,16 @@
+.body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: #e4eaff;
+    color: #fff;
+}
+
+.mt {
+    margin-top: 1.25rem;
+}
+
+.my {
+    margin: 1.25rem 0;
+}
