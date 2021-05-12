@@ -1,15 +1,16 @@
 import React from 'react'
 import styles from './SocialLinks.module.css'
-import GitHubIcon from '@material-ui/icons/GitHub'
-import InstagramIcon from '@material-ui/icons/Instagram';
-import YouTubeIcon from '@material-ui/icons/YouTube'
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
+import { faInstagram, faGithub, faYoutube } from '@fortawesome/free-brands-svg-icons'
 
 const SocialLinks = () => {
+    const iconSize = "lg"
+
     return (
         <div className={styles['social-links']}>
-            <a href="https://github.com/MuradBuyukasik"><GitHubIcon style={{ color: '#fff' }} /></a>
-            <a href="https://instagram.com/muradbuyukasik"><InstagramIcon style={{ color: '#fff' }} /></a>
-            <a href="https://www.youtube.com/channel/UC5NC9KmhbG7r5dzPOBP9QMQ"><YouTubeIcon style={{ color: '#fff' }} /></a>
+            <a href="https://github.com/MuradBuyukasik"><FontAwesomeIcon icon={faGithub} size={iconSize} /></a>
+            <a href="https://instagram.com/muradbuyukasik"><FontAwesomeIcon icon={faInstagram} size={iconSize} /></a>
+            <a href="https://www.youtube.com/channel/UC5NC9KmhbG7r5dzPOBP9QMQ"><FontAwesomeIcon icon={faYoutube} size={iconSize} /></a>
         </div>
     )
 }
