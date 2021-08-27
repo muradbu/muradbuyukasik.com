@@ -1,7 +1,0 @@
-.social-links {
-    display: flex;
-}
-
-.social-links > * + *{
-    margin-left: 1rem;
-}
