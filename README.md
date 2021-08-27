@@ -1,1 +1,0 @@
-# muradbuyukasik.com
