@@ -22,5 +22,11 @@ func Socials(w http.ResponseWriter, r *http.Request) {
 
 	socialLink := components.SocialLinkList(links)
 
-	templ.Handler(socialLink)
+	err := socialLink.Render(r.Context(), w)
+	if err != nil {
+		// Handle the error, possibly returning an HTTP error code like 500.
+		http.Error(w, err.Error(), http.StatusInternalServerError)
+		return
+	}
+
 }
