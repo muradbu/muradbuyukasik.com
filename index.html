@@ -15,15 +15,7 @@
 
   <body class="bg-gruvbox-bg-medium">
     <main class="flex flex-col">
-      <div id="parent-div"></div>
-      <button
-        hx-post="/api/socials"
-        hx-trigger="click"
-        hx-target="#parent-div"
-        hx-swap="outerHTML"
-      >
-        Click Me!
-      </button>
+      <div hx-get="/api/socials" hx-swap="innerHTML" hx-trigger="load"></div>
     </main>
   </body>
 </html>
