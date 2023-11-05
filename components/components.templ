@@ -1,0 +1,19 @@
+package components
+
+import (
+    "github.com/muradbu/muradbuyukasik.com/types"
+)
+
+templ SocialLink(l types.Link) {
+    <a href={templ.URL(l.Url)}>{l.Text}</a>
+}
+
+templ SocialLinkList(links []types.Link) {
+    <ul>
+        for _, link := range links {
+            <li>
+                @SocialLink(link)
+            </li>
+        }
+    </ul>
+}
