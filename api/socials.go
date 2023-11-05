@@ -3,7 +3,6 @@ package api
 import (
 	"net/http"
 
-	"github.com/a-h/templ"
 	"github.com/muradbu/muradbuyukasik.com/components"
 	"github.com/muradbu/muradbuyukasik.com/types"
 )
