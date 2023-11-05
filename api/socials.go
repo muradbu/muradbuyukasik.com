@@ -18,6 +18,8 @@ func Socials(w http.ResponseWriter, r *http.Request) {
 		{Text: "LinkedIn", Url: "https://www.linkedin.com/in/murad-buyukasik/"},
 	}
 
+	w.Header().Set("Content-Type", "text/html; charset=utf-8")
+
 	socialLink := components.SocialLinkList(links)
 
 	templ.Handler(socialLink)
