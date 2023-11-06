@@ -592,6 +592,10 @@ video {
   background-color: var(--bg-medium);
 }
 
+.p-4 {
+  padding: 1rem;
+}
+
 .py-4 {
   padding-top: 1rem;
   padding-bottom: 1rem;
