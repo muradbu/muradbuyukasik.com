@@ -18,6 +18,7 @@ func Socials(w http.ResponseWriter, r *http.Request) {
 	}
 
 	w.Header().Set("Content-Type", "text/html; charset=utf-8")
+	w.Header().Set("Cache-Control", "public, max-age=604800, immutable")
 
 	socialLink := components.SocialLinkList(links)
 
