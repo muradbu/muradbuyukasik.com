@@ -1,19 +1,21 @@
 package components
 
 import (
-    "github.com/muradbu/muradbuyukasik.com/types"
+	"github.com/muradbu/muradbuyukasik.com/types"
 )
 
 templ SocialLink(l types.Link) {
-    <a href={templ.URL(l.Url)}>{l.Text}</a>
+	<a class="flex py-2 justify-center" href={ templ.URL(l.Url) }>{ l.Text }</a>
 }
 
 templ SocialLinkList(links []types.Link) {
-    <ul>
-        for _, link := range links {
-            <li>
-                @SocialLink(link)
-            </li>
-        }
-    </ul>
+	<ul class="py-4 flex flex-col gap-8 max-w-lg mx-auto">
+		for _, link := range links {
+			<li>
+				<div class="border border-gruvbox-fg0">
+					@SocialLink(link)
+				</div>
+			</li>
+		}
+	</ul>
 }
