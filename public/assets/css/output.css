@@ -601,9 +601,9 @@ video {
 @font-face {
   font-family: "Fantasque Sans Mono";
 
-  src: url("font/FantasqueSansMono-Regular.woff2") format("woff2"),
-    url("font/FantasqueSansMono-Regular.woff") format("woff"),
-    url("font/FantasqueSansMono-Regular.ttf") format("truetype");
+  src: url("/assets/fonts/FantasqueSansMono-Regular.woff2") format("woff2"),
+    url("/assets/fonts/FantasqueSansMono-Regular.woff") format("woff"),
+    url("/assets/fonts/FantasqueSansMono-Regular.ttf") format("truetype");
 
   font-weight: normal;
 
@@ -615,9 +615,9 @@ video {
 @font-face {
   font-family: "Fantasque Sans Mono";
 
-  src: url("font/FantasqueSansMono-Bold.woff2") format("woff2"),
-    url("font/FantasqueSansMono-Bold.woff") format("woff"),
-    url("font/FantasqueSansMono-Bold.ttf") format("truetype");
+  src: url("/assets/fonts/FantasqueSansMono-Bold.woff2") format("woff2"),
+    url("/assets/fonts/FantasqueSansMono-Bold.woff") format("woff"),
+    url("/assets/fonts/FantasqueSansMono-Bold.ttf") format("truetype");
 
   font-weight: bold;
 
@@ -629,9 +629,9 @@ video {
 @font-face {
   font-family: "Fantasque Sans Mono";
 
-  src: url("font/FantasqueSansMono-Italic.woff2") format("woff2"),
-    url("font/FantasqueSansMono-Italic.woff") format("woff"),
-    url("font/FantasqueSansMono-Italic.ttf") format("truetype");
+  src: url("/assets/fonts/FantasqueSansMono-Italic.woff2") format("woff2"),
+    url("/assets/fonts/FantasqueSansMono-Italic.woff") format("woff"),
+    url("/assets/fonts/FantasqueSansMono-Italic.ttf") format("truetype");
 
   font-weight: normal;
 
@@ -643,9 +643,9 @@ video {
 @font-face {
   font-family: "Fantasque Sans Mono";
 
-  src: url("font/FantasqueSansMono-BoldItalic.woff2") format("woff2"),
-    url("font/FantasqueSansMono-BoldItalic.woff") format("woff"),
-    url("font/FantasqueSansMono-BoldItalic.ttf") format("truetype");
+  src: url("/assets/fonts/FantasqueSansMono-BoldItalic.woff2") format("woff2"),
+    url("/assets/fonts/FantasqueSansMono-BoldItalic.woff") format("woff"),
+    url("/assets/fonts/FantasqueSansMono-BoldItalic.ttf") format("truetype");
 
   font-weight: bold;
 
