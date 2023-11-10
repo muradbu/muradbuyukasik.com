@@ -534,6 +534,10 @@ video {
   --tw-backdrop-sepia:  ;
 }
 
+.bottom-0 {
+  bottom: 0px;
+}
+
 .mx-auto {
   margin-left: auto;
   margin-right: auto;
@@ -738,14 +742,22 @@ h3,
 h4,
 h5,
 h6,
+pre,
 p {
   color: var(--fg0);
 }
 
-.fanim {
-  font-size: 2em;
+.skelly {
+  font-size: 0.5rem;
+  line-height: 0.5rem;
 }
 
-.fanim :not(.active) {
+.skelly :not(.active) {
   display: none;
+}
+
+@media (min-width: 1024px) {
+  .lg\:absolute {
+    position: absolute;
+  }
 }

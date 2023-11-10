@@ -127,14 +127,16 @@ h3,
 h4,
 h5,
 h6,
+pre,
 p {
   @apply text-gruvbox-fg0;
 }
 
-.fanim {
-  font-size: 2em;
+.skelly {
+  font-size: 0.5rem;
+  line-height: 0.5rem;
 }
 
-.fanim :not(.active) {
+.skelly :not(.active) {
   display: none;
 }
