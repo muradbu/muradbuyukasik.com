@@ -9,8 +9,9 @@
       content="Murad Büyükaşik. Fullstack developer from the Netherlands"
     />
     <title>Murad Büyükaşik</title>
-    <link rel="stylesheet" href="/assets/css/output.css" />
+    <link rel="stylesheet" href="/assets/css/style.min.css" />
     <script src="/assets/js/htmx.min.js"></script>
+    <script src="/assets/js/animate.js"></script>
     <script
       async
       src="https://analytics.eu.umami.is/script.js"
@@ -22,6 +23,7 @@
     <main class="flex flex-col justify-center p-4">
       <h1 class="text-3xl text-center">Murad Büyükaşik</h1>
       <div hx-get="/api/socials" hx-swap="innerHTML" hx-trigger="load"></div>
+      <div hx-get="/api/skelly" hx-swap="innerHTML" hx-trigger="load"></div>
     </main>
   </body>
 </html>

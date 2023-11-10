@@ -130,3 +130,11 @@ h6,
 p {
   @apply text-gruvbox-fg0;
 }
+
+.fanim {
+  font-size: 2em;
+}
+
+.fanim :not(.active) {
+  display: none;
+}

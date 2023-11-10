@@ -741,3 +741,11 @@ h6,
 p {
   color: var(--fg0);
 }
+
+.fanim {
+  font-size: 2em;
+}
+
+.fanim :not(.active) {
+  display: none;
+}
